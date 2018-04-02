@@ -1,0 +1,85 @@
+xzoom (0.3-12) unstable; urgency=low
+
+  * binaries built against xfree 4.x for woody release
+
+ -- tony mancill <tmancill@debian.org>  Mon, 26 Nov 2001 20:08:29 -0800
+
+xzoom (0.3-11) unstable; urgency=low
+
+  * new maintainer <tmancill@debian.org> (Closes: bug#69658)
+
+ -- tony mancill <tmancill@debian.org>  Mon, 28 Aug 2000 17:43:02 -0700
+
+xzoom (0.3-10) unstable; urgency=low
+
+  * Build deps.
+
+ -- Joey Hess <joeyh@debian.org>  Sat,  4 Dec 1999 18:42:28 -0800
+
+xzoom (0.3-9) unstable; urgency=low
+
+  * FHS
+
+ -- Joey Hess <joeyh@debian.org>  Sun, 12 Sep 1999 14:27:43 -0700
+
+xzoom (0.3-8) unstable; urgency=low
+
+  * Fixed package description: no longer limited to 8bpp.
+  * Documented the 'g' key in the man page.
+
+ -- Joey Hess <joeyh@debian.org>  Wed, 25 Feb 1998 11:09:59 -0800
+
+xzoom (0.3-7) unstable; urgency=low
+
+  * Added changes from Markus F.X.J. Oberhumer 
+    <k3040e4@c210.edvz.uni-linz.ac.at>, for greater than 8 bpp support 
+    plus some other features.
+
+ -- Joey Hess <joeyh@debian.org>  Thu, 19 Feb 1998 10:59:43 -0800
+
+xzoom (0.3-6) unstable; urgency=low
+
+  * Moved binary to /usr/X11R6/bin.
+
+ -- Joey Hess <joeyh@debian.org>  Mon,  9 Feb 1998 12:44:08 -0800
+
+xzoom (0.3-5) unstable; urgency=low
+
+  * Use debhelper.
+
+ -- Joey Hess <joeyh@debian.org>  Sat,  7 Feb 1998 20:48:22 -0800
+
+xzoom (0.3-4) unstable; urgency=low
+
+  * libc6.
+  * Routine update of debian/rules:
+    Fixed binary-indep target.
+
+ -- Joey Hess <joeyh@debian.org>  Mon,  8 Sep 1997 14:08:03 -0400
+
+xzoom (0.3-3) unstable; urgency=low
+
+  * Added note to description that it only works at 8bpp.
+
+ -- Joey Hess <joeyh@debian.org>  Thu,  5 Jun 1997 19:36:27 -0400
+
+xzoom (0.3-2) unstable; urgency=low
+
+  * Fixed man page permissions. (#10275)
+  * Moved man page to X11R6.
+  * Updated menu file to menu-1 format.
+  * Routine update of debian/rules:
+    Run dpkg-gencontrol after debstd, and delete substvars during clean.
+
+ -- Joey Hess <joeyh@debian.org>  Sun,  1 Jun 1997 14:12:42 -0400
+
+xzoom (0.3-1) unstable; urgency=low
+
+  * First release.
+
+ -- Joey Hess <joeyh@debian.org>  Sat, 8 Mar 1997 15:30:09 -0500
+
+
+Local variables:
+mode: debian-changelog
+End:
